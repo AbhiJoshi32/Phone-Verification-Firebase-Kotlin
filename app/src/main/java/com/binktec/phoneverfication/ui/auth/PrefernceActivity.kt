@@ -25,7 +25,7 @@ class PrefernceActivity : AppCompatActivity() {
             val i = Intent(this,MainActivity::class.java)
 //            i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(i)
-//            finish()
+            finish()
         }
     }
 }
